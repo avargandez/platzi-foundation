@@ -1,0 +1,186 @@
+body{
+  background-color: #C8F78A;
+}
+
+#social-icons{
+  background-color: #1C3646;
+}
+#social-icons a{
+  color: #fff;
+}
+#social-icons a:hover{
+  color: #98ca3f;
+}
+
+#title-site .callout{
+  background-color: #98ca3f;
+  margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6, button{
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+#submenu{
+  background-color: #1C3646;
+  border-radius: 3px;
+  border: none;
+}
+#navbar{
+  background-color: #1C3646;
+}
+#navbar li a{
+  color: #fff;
+  font-family: 'Balsamiq Sans', cursive;
+  text-transform: uppercase;
+
+}
+#navbar li a:hover{
+  color: #98ca3f;
+}
+
+#tickets-buy .callout{
+  background-color: #1A779B;
+  margin-bottom: 0;
+}
+#tickets-buy button{
+  border: 1px solid #fff;
+  color: #fff;
+}
+#tickets-buy button:hover{
+  border: 1px solid #1C3646;
+  color: #1C3646;
+}
+#cronograma-palooza .nav-pestaña,
+#cronograma-palooza .tabs-content{
+  background-color: #C8F78A;
+  border: none;
+  font-family: 'Balsamiq Sans', cursive;
+}
+#cronograma-palooza .card{
+  margin: 10px;
+  border: 1px solid #98ca3f;
+}
+#cronograma-palooza .card img{
+  border-radius: 100%
+}
+#cronograma-palooza .card-divider{
+  margin-bottom: 15px;
+  background-color: #1C3646;
+  color: #fff;
+}
+#cronograma-palooza .card-divider h4{
+  text-align: center;
+}
+#cronograma-palooza{
+  padding:1em 0;
+  color: #1C3646;
+}
+
+#cronograma-palooza .tabs a,
+#cronograma-palooza .tabs{
+  color: #98ca3f;
+  font-size: 30px;
+  background: none;
+  border: none;
+}
+@media screen and (max-width: 600px) {
+  #cronograma-palooza .tabs a,
+  #cronograma-palooza .tabs{
+    font-size: 1em;
+  }
+}
+#cronograma-palooza .tabs a:hover,
+#cronograma-palooza .is-active a{
+  color: #1C3646;
+
+}
+#pricing-table{
+  background-color: #1C3646;
+  padding: 2em 0;
+  font-family: 'Balsamiq Sans', cursive;
+}
+#pricing-table h3{
+  color:#fff;
+  margin: 1em 0
+}
+#pricing-table ul{
+  padding: 0;
+  margin:1em 0;
+  border-radius: 6px 6px 5px 5px;
+  border: none;
+}
+#pricing-table ul a{
+  background: #1C3646;
+  color: #fff;
+}
+#pricing-table ul a:hover{
+  color: #1C3646;
+  background-color: #98ca3f;
+}
+#pricing-table ul:hover{
+  box-shadow: 0px 0px 20px 1px #98ca3f;
+}
+#pricing-table .title{
+  border-radius: 5px 5px 0 0;
+  background-color:#98ca3f;
+  font-size: 1.5em;
+  color: #1c3646;
+}
+#pricing-table .recomend{
+  height: 20px;
+  font-size: 0.7em;
+  line-height: 0;
+  color: #fff;
+  text-align: center;
+  background-color:#1A779B;
+  border-bottom: none;
+}
+#subscription{
+  padding: 2em 0;
+  background-color: #1A779B;
+  color: #ffffff;
+}
+#subscription h4{
+  color: #cacaca;
+}
+#subscription .btn-email{
+  background-color: #1C3646;
+  color: #fff;
+  font-family: 'Balsamiq Sans', cursive;
+}
+#subscription .btn-email:hover{
+  background-color: #98ca3f;
+  color: #1C3646;
+}
+#subscription .form-error{
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1em;
+  color: #cacaca;
+}
+#subscription .is-invalid-input:not(:focus){
+  border-color: #bd0303;
+  background-color: #ecadb0;
+}
+#info-event{
+  padding: 2em 0;
+}
+.data-sticky{
+  z-index: 100;
+}
+#menuoffcanvas a,
+#menuoffcanvas .sub-menu{
+  background-color: #1C3646;
+  font-family: 'Balsamiq Sans', cursive;
+  color: #98ca3f;
+  border: none;
+}
+#menuoffcanvas{
+    background-color: #1C3646;
+}
+#menuoffcanvas a::after{
+  border-color: transparent transparent transparent #fff;
+}
+#menuoffcanvas a::before{
+  border-color: transparent #fff transparent transparent ;
+}

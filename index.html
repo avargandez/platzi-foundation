@@ -1,0 +1,301 @@
+<!doctype html>
+<html class="no-js" lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framework foundation</title>
+    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/pricing-table.css">
+    <link rel="shortcut icon" href="imgs/icono.png">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <!-- PALET-COLOR: http://paletton.com/#uid=52X0u0kiRIp8jWie5PSmXA7rGuY -->
+  </head>
+  <body>
+
+    <!-- OFF CANVAS MENU -->
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-grapper-inner" data-off-canvas-wrapper>
+        <div id="menuoffcanvas" class="off-canvas position-left" data-off-canvas>
+          <nav data-magellan>
+            <ul class="vertical menu" data-drilldown data-auto-height="true" data-animate-height="true" data-close-on-click="true">
+              <li><span><a href="#pricing-table"><i class="fi-ticket"></i> Tickets</a></span></li>
+              <li><a href="#cronograma-palooza"><i class="fi-calendar"></i> Cronograma</a>
+                <ul class="vertical menu sub-menu" >
+                  <li><span><a data-toggle-dia="viernes" href="#cronograma-palooza">Viernes</a></span></li>
+                  <li><span><a data-toggle-dia="sabado" href="#cronograma-palooza">Sábado</a></span></li>
+                  <li><span><a data-toggle-dia="domingo" href="#cronograma-palooza">Domingo</a></span></li>
+                </ul>
+              </li>
+              <li><span><a href="#info-event"><i class="fi-info"> </i> Info</a></span></li>
+              <li><span><a href="#subscription"><i class="fi-mail"> </i> Suscribete</a></span></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+
+          <!-- SOCIAL -->
+          <section id="social-icons">
+            <div class="row align-center">
+              <div class="column small-1 text-center">
+                <a href="#" target="_blank"><i class="fi-social-facebook"></i></a>
+              </div>
+              <div class="column small-1 text-center">
+                <a href="#" target="_blank"><i class="fi-social-twitter"></i></a>
+              </div>
+              <div class="column small-1 text-center">
+                <a href="#" target="_blank"><i class="fi-social-instagram"></i></a>
+              </div>
+              <div class="column small-1 text-center">
+                <a href="#" target="_blank"><i class="fi-social-youtube"></i></a>
+              </div>
+            </div>
+          </section>
+          <!-- END SOCIAL -->
+
+          <!-- TITLE SITE -->
+          <section id="title-site">
+            <div class="callout text-center">
+              <h1>PLATZIPALOOZA - 2020</h1>
+            </div>
+          </section>
+          <!-- END TITLE SITE-->
+
+          <!-- NAVBAR -->
+          <section id="scrollsticky" data-sticky-container>
+            <div id="navbar" class="data-sticky" data-sticky data-options="marginTop:0" data-top-anchor="scrollsticky"
+            data-sticky-on="small">
+              <nav data-magellan>
+                <ul class="menu align-center show-for-small-only">
+                  <li><a href="#" data-toggle="menuoffcanvas"><i class="fi-list"></i> Menu</a></li>
+                </ul>
+                <ul class="dropdown menu align-center show-for-medium" data-dropdown-menu>
+                  <li><a href="#pricing-table"><i class="fi-ticket"></i> Tickets</a></li>
+                  <li><a href="#cronograma-palooza"><i class="fi-calendar"></i> Cronograma</a>
+                    <ul class="menu text-center" id="submenu">
+                      <li><a data-toggle-dia="viernes" href="#cronograma-palooza">Viernes</a></li>
+                      <li><a data-toggle-dia="sabado" href="#cronograma-palooza">Sábado</a></li>
+                      <li><a data-toggle-dia="domingo" href="#cronograma-palooza">Domingo</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#info-event"><i class="fi-info"> </i> Info</a></li>
+                  <li><a href="#subscription"><i class="fi-mail"> </i> Suscribete</a></li>
+                </ul>
+              </nav>
+            </div>
+          </section>
+          <!-- END NAVBAR -->
+
+          <!-- TICKETS BUY -->
+          <section id="tickets-buy">
+            <div class="callout large text-center">
+              <button class="button large hollow"> Comprar boletos</button>
+            </div>
+          </section>
+          <!-- END TICKETS BUY-->
+
+          <!-- CRONOGRAMA -->
+          <section id="cronograma-palooza" data-magellan-target="cronograma-palooza">
+            <h3 class=" text-center">Cronograma del Platzipalooza</h3>
+            <div class="row align-center nav-pestaña">
+              <ul class="tabs" data-active-collapse="true" data-tabs id="collapsing-tabs">
+                <li class="tabs-title is-active" aria-selected="true"><a href="#viernes">Viernes</a></li>
+                <li class="tabs-title"><a href="#sabado">Sábado</a></li>
+                <li class="tabs-title"><a href="#domingo">Domingo</a></li>
+              </ul>
+            </div>
+
+            <div class="tabs-content" data-tabs-content="collapsing-tabs">
+              <div class="tabs-panel is-active" id="viernes">
+                <div class="row text-center">
+                  <div class="card" style="width: 300px;">
+                    <div class="card-divider align-center">
+                      <h4>Pablo Alboran</h4>
+                    </div>
+                    <img style="width:140px; margin: auto;"src="imgs/pablo.jpg">
+                    <div class="card-section">
+                      <p>Pablo Moreno de Alborán Ferrándiz​, ​​ conocido como Pablo Alborán,
+                         es un cantautor y músico español.​​​</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 300px;">
+                    <div class="card-divider align-center">
+                      <h4>Andres Cepeda</h4>
+                    </div>
+                    <img style="width:140px; margin: auto;"src="imgs/andrescpd.jpg">
+                    <div class="card-section">
+                      <p>Andrés Cepeda Cediel es un cantante y compositor colombiano,
+                         conocido por sus canciones románticas</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 300px;">
+                    <div class="card-divider align-center">
+                      <h4>Mon Laferte</h4>
+                    </div>
+                    <img style="width:140px; margin: auto;"src="imgs/monlaferte.jpg">
+                    <div class="card-section">
+                      <p>Norma Monserrat Bustamante Laferte, conocida artísticamente como Mon Laferte,
+                         es una cantante, compositora, artista plástica y activista chilena.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tabs-panel" id="sabado">
+                <div class="row text-center">
+                  <div class="card" style="width: 300px;">
+                    <div class="card-divider align-center">
+                      <h4>Maluma</h4>
+                    </div>
+                    <img style="width:140px; margin: auto;"src="imgs/maluma.jpg">
+                    <div class="card-section">
+                      <p>Juan Luis Londoño Arias, conocido artísticamente como Maluma,
+                         es un cantante colombiano de pop, reguetón y trap latino.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 300px;">
+                    <div class="card-divider align-center">
+                      <h4>Shakira</h4>
+                    </div>
+                    <img style="width:140px; margin: auto;"src="imgs/shakira.jpg">
+                    <div class="card-section">
+                      <p>Shakira Isabel Mebarak Ripoll​​, conocida artísticamente como Shakira, es una cantautora, productora discográfica,
+                         bailarina, empresaria, embajadora de buena voluntad de UNICEF y filántropa colombiana</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 300px;">
+                    <div class="card-divider align-center">
+                      <h4>Camilo Cheverry</h4>
+                    </div>
+                    <img style="width:140px; margin: auto;"src="imgs/camilocvr.jpg">
+                    <div class="card-section">
+                      <p>Camilo Echeverry Correa, conocido simplemente como Camilo, es un cantante y compositor colombiano
+                         que saltó a la fama en 2007 después de ganar el concurso de talentos Factor X de su país.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tabs-panel" id="domingo">
+                <div class="row text-center">
+                  <div class="card" style="width: 300px;">
+                    <div class="card-divider align-center">
+                      <h4>Paquita la del barrio</h4>
+                    </div>
+                    <img style="width:140px; margin: auto;"src="imgs/perf_1.jpg">
+                    <div class="card-section">
+                      <p>Francisca Viveros Barradas, más conocida como Paquita la del Barrio, es una cantante mexicana
+                         de género ranchero y demás estilos tradicionales mexicanos.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 300px;">
+                    <div class="card-divider align-center">
+                      <h4>Ana Gabriel</h4>
+                    </div>
+                    <img style="width:140px; margin: auto;"src="imgs/perf_2.jpg">
+                    <div class="card-section">
+                      <p>María Guadalupe Araujo Yong​, ​ más conocida como Ana Gabriel, es una cantautora y compositora mexicana,
+                         conocida con los sobrenombres de la Diva de América​ y la Luna de América.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 300px;">
+                    <div class="card-divider align-center">
+                      <h4>Fonseca</h4>
+                    </div>
+                    <img style="width:140px; margin: auto;"src="imgs/fonseca.jpg">
+                    <div class="card-section">
+                      <p>Juan Fernando Fonseca Carrera, conocido artísticamente como Fonseca, es un cantautor colombiano.
+                         Con su música, mezcla de pop y ritmos folclóricos colombianos, ha obtenido varios premios Grammy Latinos.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END CRONOGRAMA -->
+
+          <!-- PRICING TABLE -->
+          <section id="pricing-table" data-magellan-target="pricing-table">
+            <h3 class="text-center">Compra tus boletos</h3>
+            <div class="row align-center align-middle" data-equalizer>
+              <div class="column small-10 medium-4 large-3">
+                <ul class="pricing-table">
+                  <li class="title">Silver</li>
+                  <li class="price">$64.99</li>
+                  <li class="description">Viernes, sábado y domingo</li>
+                  <li data-equalizer-watch>Ingreso a 1 persona</li>
+                  <li>1 bebida por dia</li>
+                  <li>Palco normal</li>
+                  <li><a class="button" href="#">Comprar</a></li>
+                </ul>
+              </div>
+              <div class="column small-10 medium-4 large-4">
+                <ul class="pricing-table">
+                  <li class="title">Platino</li>
+                  <li class="recomend">RECOMENDADO</li>
+                  <li class="price">$119.99</li>
+                  <li class="description">Viernes, sábado y domingo</li>
+                  <li>Ingreso a 2 personas</li>
+                  <li>2 bebidas por dia</li>
+                  <li>Parqueadero Gratis</li>
+                  <li>Palco VIP</li>
+                  <li><a class="button" href="#">Comprar</a></li>
+                </ul>
+              </div>
+              <div class="column small-10 medium-4 large-3">
+                <ul class="pricing-table">
+                  <li class="title">Gold</li>
+                  <li class="price">$99.99</li>
+                  <li class="description">Viernes, sábado y domingo</li>
+                  <li data-equalizer-watch>Ingreso a 2 personas</li>
+                  <li>1 bebida por dia</li>
+                  <li>Palco norma</li>
+                  <li><a class="button" href="#">Comprar</a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <!-- END PRICING TABLE -->
+
+          <!-- SUBSCRIPTION -->
+          <section id="subscription" data-magellan-target="subscription">
+            <h2 class="text-center">Suscríbete</h2>
+            <h4 class="text-center"><samll>Recibe todas las novedades del evento</small></h4>
+              <form action="https://formspree.io/f/xeqpowjz" method="post" novalidate data-abide>
+                <div class="row columns small-12 medium-8 large-6 align-center">
+                  <div class="input-group">
+                    <span class="input-group-label"><i class="fi-mail"></i></span>
+                      <input class="input-group-field" type="email" name="email" placeholder="¡Tu email por aquí!" required>
+                    <div class="input-group-button">
+                      <input type="submit" class="button btn-email" value="Enviar">
+                    </div>
+                  </div>
+                </div>
+                <div data-abide-error class="row columns samll-12 medium-8 large-6 text-center form-error" style="display:none;">
+                  <p> <i class="fi-alert"></i> Correo electronico no valido</p>
+                </div>
+              </form>
+          </section>
+          <!-- END SUBSCRIPTION -->
+
+          <!-- INFO -->
+          <section id="info-event" data-magellan-target="info-event">
+            <h3 class="text-center">Más información</h3>
+            <div class="info-map" data-interchange="[maps/map-small.html, small], [maps/map.html, medium]"></div>
+          </section>
+          <!-- END INFO -->
+        </div>
+      </div>
+    </div>
+    <!-- END OF CANVAS MENU -->
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
